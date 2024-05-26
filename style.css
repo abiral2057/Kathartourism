@@ -1,10 +1,10 @@
 
 .loader {
-
+    
     right: 40%;
     top: 40%;
     position: absolute;
-    left: 40%;
+    left: 47%;
     border: 8px solid #f3f3f3;
     border-top: 8px solid #639D84;
     border-radius: 50%;
@@ -20,10 +20,11 @@
     position: absolute;
     left: 40%;
     right: 40%;
-    color: white;
+    color: #fffbfb;
     font-family: arial;
     border-radius: 50%;
     width: max-content;
+    font-weight: 600;
 
     
   }
@@ -66,3 +67,10 @@ nav{
     background: aliceblue;
     opacity: 80%;
 }
+
+@media only screen and (max-width: 600px) {
+   
+    .loader {
+    left: 40%;
+    }
+  }
