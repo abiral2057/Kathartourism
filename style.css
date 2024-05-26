@@ -1,3 +1,40 @@
+
+.loader {
+
+    right: 40%;
+    top: 40%;
+    position: absolute;
+    left: 40%;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #639D84;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 4s linear infinite;
+    z-index: 1;
+  }
+  #loadertext {
+    z-index: 1;
+    margin: 0 auto;
+    top: 60%;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    color: white;
+    font-family: arial;
+    border-radius: 50%;
+    width: max-content;
+
+    
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  /* Hide the website content initially */
+  #content {
+    display: none;
+  }
 .logo{
     width: 70px;
     height: 70px;
