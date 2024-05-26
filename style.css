@@ -1,0 +1,31 @@
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+body{
+    background: cadetblue;
+    margin: 20%;
+}
+li #navitem{
+    color: #639D84;
+}
+nav{
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius:   15px;
+    background: cadetblue;
+    opacity: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.11), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
+}
+
+#coverimg{
+
+    width: -webkit-fill-available;
+}
+#marqueetext{
+    font-style: normal;
+    text-align: center;
+    font-size: small;
+    background: aliceblue;
+    opacity: 80%;
+}
