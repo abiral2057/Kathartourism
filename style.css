@@ -68,6 +68,10 @@ nav{
     opacity: 80%;
 }
 
+.posterfirst{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.26), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
+}
+
 @media only screen and (max-width: 600px) {
    
     .loader {
